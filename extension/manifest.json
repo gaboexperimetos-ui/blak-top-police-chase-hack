@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Poki Reward Bypass",
+  "version": "1.1",
+  "description": "Bypass Poki rewarded/commercial ads for reward claims",
+  "content_scripts": [{
+    "matches": ["https://poki.com/*","https://*.poki.com/*","https://*.poki-gdn.com/*","https://*.poki-cdn.com/*"],
+    "js": ["content.js"],
+    "run_at": "document_start",
+    "all_frames": true
+  }]
+}

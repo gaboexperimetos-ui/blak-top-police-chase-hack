@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Blacktop Police Chase (desbloqueado)
+Comment=Abre el juego con bypass de recompensas y todos los vehículos (Chromium, perfil local)
+Exec=/home/gabo/jugar-blacktop-unlock.sh
+Icon=applications-games
+Terminal=false
+Categories=Game;
